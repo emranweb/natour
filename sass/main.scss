@@ -1,0 +1,19 @@
+// This abstracts are store that the data that are only create for sass 
+@import "abstracts/function";
+@import "abstracts/mixin";
+@import "abstracts/variable";
+// this area for reser animaiton typhography and other unitlites
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utility";
+//page layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/navigation";
+//different component
+@import "component/button";
+@import "component/component";
+//different page
+@import "page/home";

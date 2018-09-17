@@ -1,0 +1,34 @@
+//color 
+$primary-color:#55c57a;
+$primary-color-dark:#28b485;
+$primary-color-light: #7ed56f;
+
+$color-secondary-light:#ffb900;
+$color-secondary-dark : #ff7730;
+
+$color-tertiary-light:#2998ff;
+$color-tertiary-dark:#5643fa;
+
+$color-gray-dark: #777;
+$color-gray-dark-3: #333;
+
+$color-white:#fff;
+$color-black: #000;
+
+$color-gray-light : #f7f7f7;
+
+
+$default-font:1.6rem;
+
+//grid 
+
+$grid-width:114rem;
+$gutter-right:4rem;
+$gutter-bottom:4rem;
+
+
+@include respond(tab-port){
+  $grid-width:50rem;
+  $gutter-right:3rem;
+  $gutter-bottom:3rem;
+}

@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+/* Default Font Size*/
+
+html {
+  font-size: 62.5%; //1 rem = 10px
+
+    //desktop
+    @include respond(big-desk){
+      font-size:75%; //1 rem = 12 px
+    }
+  
+      //rablet land
+  @include respond(tab-land){
+    font-size:56.25%;  // 1 rem = 9px
+  }
+
+    
+//tablet
+  @include respond(tab-port){
+    font-size:50%;  // 1rem = 8px
+  }
+
+
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-gray-dark;
+  padding: 3rem;
+  box-sizing: border-box;
+
+  @include respond(tab-port) {
+    padding:0; 
+  }
+}
+
+::selection{
+  background:$primary-color;
+  color:$color-white;
+}
